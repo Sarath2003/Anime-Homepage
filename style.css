@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    font-family: njnaruto;
+    word-spacing: 5px;
+}
+
+@font-face {
+    src: url("njnaruto.ttf");
+    font-family: njnaruto;
+}
+
+img{
+    width: 220px;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    padding: 40px;
+    flex-basis: 720px;
+    height: 343px;
+}
+
+section:nth-child(1){
+    background: url("https://images6.alphacoders.com/744/thumb-1920-744735.png");
+    background-size: cover;
+    color: whitesmoke;
+}
+
+#top{
+    margin: 220px auto;
+}
+
+#title, #bio{
+    margin: 0px auto;
+}
+
+#title{
+    width: 300px;
+}
+
+#bio{
+    padding: 10px;
+    color: #F6E4CC;
+    width: 600px;
+    font-size: 20px;
+    background-color: #073a90;
+    border-radius: 10px;
+}
+
+section:nth-child(2){
+    padding-top: 100px;
+    background-color: rgb(225, 209, 228);
+    color: rgb(73, 34, 135);
+}
+
+h3{
+    margin: 30px;
+    font-size: 33px;
+}
+
+#middle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thing{
+    flex-basis: 30%;
+    padding-top: 50px;
+}
+
+.thing img{
+    margin-bottom: 50px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+li{
+    font-size: 17px;
+    padding: 7px;
+}
+
+section:nth-child(3){
+    background-color: azure;
+}
+
+.card{
+    margin: 220px auto;
+    display: flex;
+    width: 550px;
+    padding: 20px 40px;
+    background-color: rgb(193, 214, 219);
+    border-bottom: 5px solid rgb(211, 185, 212);
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.details{
+    padding-left: 30px;
+    text-align: center;
+}
+
+.details h1{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.details h1, h4{
+    padding-bottom: 15px;
+}
+
+
+.details p{
+    font-size: 13px;
+}
